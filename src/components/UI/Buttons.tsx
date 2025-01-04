@@ -24,7 +24,7 @@ export const Button = ({ name, background, textColor, border }: IButtons) => {
 export const ButtonLg = ({ name, background, textColor, border }: IButtons) => {
   return (
     <button
-      className={` text-base font-medium  w-[85%] py-4 bg-[${background}] text-[${textColor}]  border-[${border}] border-2  rounded`}
+      className={` text-base font-medium px-14 py-4 bg-[${background}] text-[${textColor}]  border-[${border}] border-2  rounded`}
       style={{
         backgroundColor: background,
         color: textColor,
@@ -46,7 +46,7 @@ export const ButtonLgI = ({
 }: IButtons) => {
   return (
     <button
-      className={` ptext-base font-medium w-full py-4 bg-[${background}] text-[${textColor}] border-[${border}] border-2   rounded`}
+      className={` ptext-base font-medium px-14 py-4 bg-[${background}] text-[${textColor}] border-[${border}] border-2   rounded`}
       style={{
         backgroundColor: background,
         color: textColor,
@@ -63,7 +63,7 @@ export const ButtonLgI = ({
 export const ButtonSM = ({ name, background, textColor, border }: IButtons) => {
   return (
     <button
-      className={`h-[48px] text-base font-medium  w-[85%] rounded-lg  bg-[${background}] text-[${textColor}] border-[${border}] border-2   rounded`}
+      className={`h-[48px] text-base font-medium px-14 rounded-lg  bg-[${background}] text-[${textColor}] border-[${border}] border-2   rounded`}
       style={{
         backgroundColor: background,
         color: textColor,
@@ -84,7 +84,7 @@ export const ButtonSMI = ({
 }: IButtons) => {
   return (
     <button
-      className={` text-base font-medium w-full py-16  bg-[${background}] ${textColor} rounded-lg  border-[${border}] border-2  rounded`}
+      className={` text-base font-medium px-14 py-16  bg-[${background}] ${textColor} rounded-lg  border-[${border}] border-2  rounded`}
       style={{
         backgroundColor: background,
         color: textColor,

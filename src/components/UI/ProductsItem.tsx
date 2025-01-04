@@ -7,9 +7,9 @@ const ProductsItem = ({ img, details, price }: IProducts) => {
 
   const handler = () => {
     setNew((prevUser) =>
-      prevUser === "/Cyper/public/images/Like.png"
-        ? "/Cyper/public/images/Arrow.png"
-        : "/Cyper/public/images/Like.png"
+      prevUser === "/Cyper/public/images/like-red.png"
+        ? "/Cyper/public/images/like.png"
+        : "/Cyper/public/images/like-red.png"
     );
   };
   return (
