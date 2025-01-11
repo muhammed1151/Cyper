@@ -75,7 +75,7 @@ const Header = () => {
 
   return (
     <div className=" container mx-auto  z-20 h-[88px] flex px-[16px] w-full  items-center justify-between  ">
-      <img className="w-24 h-[32px]" src="images\Logo.png" />
+      <img className="w-24 h-[32px]" src="/images/Logo.png" />
       <div className="flex gap-5">
         <NavBar />
         <Button
