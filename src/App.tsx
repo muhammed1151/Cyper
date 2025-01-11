@@ -3,23 +3,30 @@ import Category from "./components/Category";
 import { FooterM } from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import Ipad from "./components/Ipad";
-import { useState } from "react";
-import { HeaderMobile } from "./components/UI/HeaderMobile";
+
 import Header from "./components/UI/Header";
-import Tages from "./components/UI/Tages";
+import TagsOfBanner from "./components/UI/TagsOfBanner";
+import { infoTags } from "./components/ts/Tags";
 
 function App() {
-  const [width, setWidth] = useState<number>(window.innerWidth);
-  const widthHandler = () => setWidth(window.innerWidth);
-  addEventListener("resize", widthHandler);
+  const resultTags = infoTags.map((infoTag) => {
+    return (
+      <Ipad
+        srcImg={infoTag.img}
+        details={infoTag.details}
+        name={infoTag.name}
+      />
+    );
+  });
+
   return (
     <>
-      {width < 500 ? <HeaderMobile /> : <Header />}
+      <Header />
       <LandingPage />
       <Banners />
       <Category />
-      <Tages />
-      <Ipad />
+      <TagsOfBanner />
+      {resultTags}
       <FooterM />
     </>
   );

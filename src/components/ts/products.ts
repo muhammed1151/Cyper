@@ -2,43 +2,67 @@ import { IProducts } from "./interfaces";
 
 export const products: IProducts[] = [
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "1",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title:"Apple iPhone ",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "2",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "Apple iPhone",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "3",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "Apple iPhone",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "4",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "Apple iPhone",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "5",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "Apple iPhone",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "6",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "Apple iPhone",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "7",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "",
+    name: ""
   },
   {
-    img:"/Cyper/public/images/Iphone14.png",
-    details:"Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
-    price:"$900",
+    id: "8",
+    img: "/Cyper/public/images/Iphone14.png",
+    details: "Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)",
+    price: "$900",
+    title: "",
+    name: ""
   },
 ];

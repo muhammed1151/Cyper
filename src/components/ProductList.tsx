@@ -4,7 +4,7 @@ import ProductsItem from "./UI/ProductsItem";
 const productList = () => {
   const result = products.map((card) => {
     return (
-      <ProductsItem img={card.img} details={card.details} price={card.price} />
+      <ProductsItem img={card.img} details={card.details} price={card.price} id={0} />
     );
   });
 

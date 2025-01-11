@@ -1,3 +1,4 @@
+import { Button } from "@headlessui/react";
 import { Categories } from "./ts/Categories";
 import CategoryItem from "./UI/CategoryItem";
 const Category = () => {
@@ -5,17 +6,17 @@ const Category = () => {
     return <CategoryItem icon={item.icon} name={item.name} />;
   });
   return (
-    <div className="px-4">
+    <div className=" container mx-auto ">
       <div className="container">
         <div className="pt-16 flex justify-between">
           <p className="text-2xl font-medium">Browse By Category</p>
           <div>
-            <button>
+            <Button className="">
               <img className="w-9" src="public\images\Arrow.png" alt="" />
-            </button>
-            <button>
+            </Button>
+            <Button className="">
               <img className="w-9" src="public\images\Arrow.png" alt="" />
-            </button>
+            </Button>
           </div>
         </div>
 

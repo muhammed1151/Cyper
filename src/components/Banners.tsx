@@ -1,4 +1,4 @@
-import { ButtonLg } from "./UI/Buttons";
+import { Button} from "./UI/Buttons";
 
 const Banners = () => {
   return (
@@ -8,7 +8,7 @@ const Banners = () => {
         <div className="flex flex-col items-center justify-center pb-10 pt-10 lg:p-0 lg:order-2 lg:w-1/2 lg:flex-row">
           <div className="overflow-hidden lg:h-full lg:w-1/2">
             <img
-              className="w-[192px] pb-6   lg:w-full lg:h-[300px]   lg:-translate-x-16 "
+              className="w-[300px] pb-6   lg:w-full lg:h-[300px]   lg:-translate-x-16 "
               src="public\images\hero.png"
             />
           </div>
@@ -27,7 +27,7 @@ const Banners = () => {
         <div className="bg-[#353535] flex flex-col items-center justify-center pb-10 pt-10  lg:p-0  lg:order-3 lg:w-1/2 lg:flex-row overflow-hidden">
           <div className="flex items-center     lg:relative">
             <img
-              className="w-[350px] pb-6 lg:h-[200px] lg:-translate-x-[30%]  "
+              className="w-[450px] pb-6 lg:h-[200px] lg:-translate-x-[30%]  "
               src="public\images\glasses.png"
             />
           </div>
@@ -73,7 +73,7 @@ const Banners = () => {
             The new 15‑inch MacBook Air makes room for more of what you love
             with a spacious Liquid Retina display.
           </p>
-          <ButtonLg name="Shop Now " border="black" textColor="black" />
+          <Button name="Shop Now " className="" />
         </div>
       </div>
     </div>
